@@ -3,7 +3,7 @@ version:             0.1.0.0
 -- synopsis:
 -- description:
 homepage:            https://github.com/adelbertc/bayhac17
-license:             Apache 2.0
+license:             Apache-2.0
 license-file:        LICENSE
 author:              Adelbert Chang
 maintainer:          Adelbert Chang
