@@ -61,7 +61,7 @@ fmap :: (Functor f) => (a -> b) -> f a -> f b
 
 ```{.haskell}
 -- Applicative ~> Monoidal
-ff <*> fa = fmap (uncurry $) (ff <**> fa)
+ff <*> fa = fmap (uncurry ($)) (ff <**> fa)
 pure      = unit
 
 -- Monoidal ~> Applicative
